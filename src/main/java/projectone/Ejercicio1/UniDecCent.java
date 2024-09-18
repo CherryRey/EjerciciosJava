@@ -13,7 +13,7 @@ import java.util.Scanner;
  * unidades de Millar y decenas de millar.
  * 
  * Si la cifra dada es menor que 0 o contiene más de 5 cifras, 
- * vuelve a pedir el número.ú
+ * vuelve a pedir el número.
  * 
  */
 public class UniDecCent {
@@ -45,7 +45,7 @@ public class UniDecCent {
         while(numero >= 100000 || numero < 0);
  
         
-        //3. Declaro variable para descomponer el numero y almacenar resultados.
+        //3. Declaro el tipo y las variables para descomponer el numero y almacenar resultados.
         int unidades, centenas, decenas, udMillar, dcMillar;
         
         unidades = numero %10;
